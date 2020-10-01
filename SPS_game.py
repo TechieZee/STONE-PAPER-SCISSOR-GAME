@@ -24,18 +24,18 @@ else:
 
 # Winning Logic
 if user_input.lower() == comp.lower():
-    print("Draw!")
+    print("Game is a Draw!")
 elif user_input.lower() == 's' and comp.lower() =='p':
-    print("Computer Wins!")
+    print("Computer Wins!\nPlayer Lost!")
 elif user_input.lower() == 's' and comp.lower() =='c':
-    print("Player Wins!")
+    print("Player Wins!\nComputer Lost!")
 elif user_input.lower() == 'p' and comp.lower() =='c':
-    print("Computer Wins!")
+    print("Computer Wins!\nPlayer Lost!")
 elif user_input.lower() == 'p' and comp.lower() =='s':
-    print("Player Wins!")
+    print("Player Wins!\nComputer Lost!")
 elif user_input.lower() == 'c' and comp.lower() =='s':
-    print("Computer Wins!")
+    print("Computer Wins!\nPlayer Lost!")
 elif user_input.lower() == 'c' and comp.lower() =='p':
-    print("Player Wins!")
+    print("Player Wins!\nComputer Lost!")
 
 
